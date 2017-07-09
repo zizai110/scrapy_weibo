@@ -1,0 +1,15 @@
+[2017-07-09 17:43:19](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 17:43:41](   INFO) get_weibo_content.py[ 63] - <module> : 因为代理ip的原因此条微博爬取失败！
+[2017-07-09 17:43:41](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4126937439959091失败 ！
+[2017-07-09 17:43:49](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 17:43:52](   INFO) get_weibo_content.py[ 63] - <module> : 因为代理ip的原因此条微博爬取失败！
+[2017-07-09 17:43:52](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127291023734676失败 ！
+[2017-07-09 17:44:34](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 17:44:35](   INFO) get_iplist.py[ 34] - get_iplist : 清除redis中所有的过时ip，并开始重新收集有效的ip
+[2017-07-09 17:44:43](   INFO) get_iplist.py[ 49] - get_iplist : 有效ip到现在有100个
+[2017-07-09 17:44:51](   INFO) get_iplist.py[ 49] - get_iplist : 有效ip到现在有200个
+[2017-07-09 17:45:07](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 17:45:29](   INFO) get_weibo_content.py[ 63] - <module> : 因为代理ip的原因此条微博爬取失败！
+[2017-07-09 17:45:29](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4126975868232801失败 ！
+[2017-07-09 17:46:03](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 17:46:08](   INFO) get_login_session.py[109] - login : 用户亲切_59404的微博_微博已经成功登陆！
