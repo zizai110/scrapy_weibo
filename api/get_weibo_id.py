@@ -32,6 +32,6 @@ if __name__ == '__main__':
         for idx in mid:
             r.sadd("weibo_id", idx)
 
-    if i % 10 == 0:
-        logger.info("第%s页的微博id存入redis库中......" % (i + 1))
+        if i % 10 == 0:
+            logger.info("第%s页的微博id存入redis库中......" % (i + 1))
     time.sleep(0.2)

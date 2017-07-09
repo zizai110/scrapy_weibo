@@ -13,3 +13,86 @@
 [2017-07-09 17:45:29](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4126975868232801失败 ！
 [2017-07-09 17:46:03](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
 [2017-07-09 17:46:08](   INFO) get_login_session.py[109] - login : 用户亲切_59404的微博_微博已经成功登陆！
+[2017-07-09 18:08:10](   INFO) get_login_session.py[109] - login : 用户亲切_59404的微博_微博已经成功登陆！
+[2017-07-09 18:08:10](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 18:09:16](   INFO) get_login_session.py[109] - login : 用户亲切_59404的微博_微博已经成功登陆！
+[2017-07-09 18:09:16](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 18:09:18](   INFO) get_weibo_id.py[ 36] - <module> : 第1页的微博id存入redis库中......
+[2017-07-09 18:09:22](   INFO) get_weibo_id.py[ 36] - <module> : 第11页的微博id存入redis库中......
+[2017-07-09 18:09:25](   INFO) get_weibo_id.py[ 36] - <module> : 第21页的微博id存入redis库中......
+[2017-07-09 18:09:29](   INFO) get_weibo_id.py[ 36] - <module> : 第31页的微博id存入redis库中......
+[2017-07-09 18:09:35](   INFO) get_weibo_id.py[ 36] - <module> : 第41页的微博id存入redis库中......
+[2017-07-09 18:09:39](   INFO) get_weibo_id.py[ 36] - <module> : 第51页的微博id存入redis库中......
+[2017-07-09 18:09:43](   INFO) get_weibo_id.py[ 36] - <module> : 第61页的微博id存入redis库中......
+[2017-07-09 18:09:47](   INFO) get_weibo_id.py[ 36] - <module> : 第71页的微博id存入redis库中......
+[2017-07-09 18:09:51](   INFO) get_weibo_id.py[ 36] - <module> : 第81页的微博id存入redis库中......
+[2017-07-09 18:09:55](   INFO) get_weibo_id.py[ 36] - <module> : 第91页的微博id存入redis库中......
+[2017-07-09 18:46:34](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 18:46:37](   INFO) get_weibo_content.py[ 62] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 18:46:37](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127558871875736失败 ！
+[2017-07-09 18:46:49](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 18:47:12](   INFO) get_weibo_content.py[ 62] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 18:47:12](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127282966752131失败 ！
+[2017-07-09 18:52:10](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 18:53:27](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 18:54:35](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 18:54:35](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127533828354162失败 ！
+[2017-07-09 18:56:08](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 18:56:27](   INFO) get_login_session.py[109] - login : 用户亲切_59404的微博_微博已经成功登陆！
+[2017-07-09 18:59:31](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:04:58](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:04:58](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127577943440469失败 ！
+[2017-07-09 19:05:21](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:05:26](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:05:26](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127533077336141失败 ！
+[2017-07-09 19:05:49](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:36:29](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:37:16](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:37:17](   INFO) get_iplist.py[ 34] - get_iplist : 清除redis中所有的过时ip，并开始重新收集有效的ip
+[2017-07-09 19:37:25](   INFO) get_iplist.py[ 49] - get_iplist : 有效ip到现在有100个
+[2017-07-09 19:38:08](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:38:09](   INFO) get_iplist.py[ 36] - get_iplist : 清除redis中所有的过时ip，并开始重新收集有效的ip
+[2017-07-09 19:39:29](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:39:30](   INFO) get_iplist.py[ 37] - get_iplist : 清除redis中所有的过时ip，并开始重新收集有效的ip
+[2017-07-09 19:39:38](   INFO) get_iplist.py[ 52] - get_iplist : 有效ip到现在有100个
+[2017-07-09 19:39:47](   INFO) get_iplist.py[ 52] - get_iplist : 有效ip到现在有200个
+[2017-07-09 19:42:50](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:42:51](   INFO) get_iplist.py[ 37] - get_iplist : 清除redis中所有的过时ip，并开始重新收集有效的ip
+[2017-07-09 19:42:52](   INFO) get_iplist.py[ 52] - get_iplist : 有效ip到现在有0个
+[2017-07-09 19:42:53](   INFO) get_iplist.py[ 52] - get_iplist : 有效ip到现在有0个
+[2017-07-09 19:43:10](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:43:11](   INFO) get_iplist.py[ 37] - get_iplist : 清除redis中所有的过时ip，并开始重新收集有效的ip
+[2017-07-09 19:43:12](   INFO) get_iplist.py[ 52] - get_iplist : 有效ip到现在有0个
+[2017-07-09 19:43:14](   INFO) get_iplist.py[ 52] - get_iplist : 有效ip到现在有0个
+[2017-07-09 19:43:36](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:43:37](   INFO) get_iplist.py[ 37] - get_iplist : 清除redis中所有的过时ip，并开始重新收集有效的ip
+[2017-07-09 19:44:04](   INFO) get_iplist.py[ 52] - get_iplist : 有效ip到现在有99个
+[2017-07-09 19:44:32](   INFO) get_iplist.py[ 52] - get_iplist : 有效ip到现在有199个
+[2017-07-09 19:45:46](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:45:57](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:45:57](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127179056400823失败 ！
+[2017-07-09 19:46:03](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:46:50](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:47:17](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:47:17](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127388663186387失败 ！
+[2017-07-09 19:47:55](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:47:57](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:47:57](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127309252131474失败 ！
+[2017-07-09 19:48:03](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:48:09](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:48:09](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127154616197645失败 ！
+[2017-07-09 19:49:06](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:49:10](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:49:10](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4126998588067212失败 ！
+[2017-07-09 19:49:14](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:49:20](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:49:20](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127256361991866失败 ！
+[2017-07-09 19:50:25](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:50:32](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:50:32](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4126992246607021失败 ！
+[2017-07-09 19:50:39](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:50:43](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:50:43](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127317905228983失败 ！
+[2017-07-09 19:52:43](   INFO) connect_redis.py[ 11] - get_redis : 成功连接redis数据库！
+[2017-07-09 19:53:01](   INFO) get_weibo_content.py[ 65] - get_valid_session : 代理不成功，登陆失败！！
+[2017-07-09 19:53:01](   INFO) get_weibo_content.py[ 34] - get_weibo_content : 爬取微博4127563641509670失败 ！

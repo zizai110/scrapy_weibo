@@ -5,6 +5,7 @@ __Author__ : linyu
 """
 
 import json
+from multiprocessing.pool import Pool
 
 import requests
 from lxml import etree
@@ -17,10 +18,9 @@ from util.log_util import get_logger
 logger = get_logger('api.' + __file__.split('/')[-1][:-3])
 
 
-def get_weibo_content():
-    weibo_id = r.spop('weibo_id').decode('utf-8')
+def get_weibo_content(sess, url, weibo_id):
     try:
-        page = sess.get(url % weibo_id, headers=headers)
+        page = sess.get(url % weibo_id, headers=headers, timeout=2)
         data = json.loads(page.content.decode('utf-8'))['data']
         # pagenums = data['page']['totalpage']
         # print(pagenums)
@@ -37,16 +37,17 @@ def get_weibo_content():
 def is_valid_proxy(proxy):
     sess = requests.session()
     sess.proxies = proxy
-    r = sess.get('http://www.baidu.com')
-    if r.status_code == 200:
-        return True
-    else:
+    try:
+        r = sess.get('http://weibo.com/login.php', headers=headers, timeout=2)
+        if r.status_code == 200:
+            return True
+        else:
+            return False
+    except:
         return False
 
 
-if __name__ == '__main__':
-    r = get_redis()
-    url = 'http://weibo.com/aj/v6/comment/big?ajwvr=6&id=%s&root_comment_max_id_type=0&page=1'
+def get_valid_session():
     config = get_config()
     proxy = None
     while 1:
@@ -55,10 +56,27 @@ if __name__ == '__main__':
             proxy = {'https': ip}
         else:
             proxy = {'http': ip}
-        if ip == '' or ip is None or is_valid_proxy(proxy):
+        if is_valid_proxy(proxy):
             break
     try:
         sess = login(config[0][0], config[0][1], proxy)
+        return sess
     except:
-        logger.info('因为代理ip的原因此条微博爬取失败！')
-    print(get_weibo_content())
+        logger.info('代理不成功，登陆失败！！')
+
+
+def get_comment_with_proxy():
+    url = 'http://weibo.com/aj/v6/comment/big?ajwvr=6&id=%s&root_comment_max_id_type=0&page=1'
+    sess = get_valid_session()
+    weibo_id = r.spop('weibo_id').decode('utf-8')
+    print(get_weibo_content(sess, url, weibo_id))
+
+
+def main():
+    pool = Pool()
+    pass
+
+
+if __name__ == '__main__':
+    r = get_redis()
+    get_comment_with_proxy()

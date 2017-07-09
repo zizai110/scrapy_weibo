@@ -97,12 +97,12 @@ def login(username, password, proxies=None):
     pa = r'location\.replace\([\'"](.*?)[\'"]\)'
     loop_url = re.findall(pa, login_loop)[0]
 
-    login_index = session.get(loop_url, headers=headers)
+    login_index = session.get(loop_url, headers=headers, timeout=2)
     uuid = login_index.text
     uuid_pa = r'"uniqueid":"(.*?)"'
     uuid_res = re.findall(uuid_pa, uuid, re.S)[0]
     web_weibo_url = "http://weibo.com/%s/profile?topnav=1&wvr=6&is_all=1" % uuid_res
-    weibo_page = session.get(web_weibo_url, headers=headers)
+    weibo_page = session.get(web_weibo_url, headers=headers, timeout=2)
 
     weibo_pa = r'<title>(.*?)</title>'
     userID = re.findall(weibo_pa, weibo_page.content.decode("utf-8", 'ignore'), re.S)[0]

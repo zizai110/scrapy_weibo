@@ -21,10 +21,13 @@ def is_valid_ip(is_http, ip, port):
     proxies = {is_http: is_http + '://' + ip + ':' + port}
     sess = requests.session()
     sess.proxies = proxies
-    r = sess.get('http://www.baidu.com', headers=headers)
-    if r.status_code == 200:
-        return True
-    else:
+    try:
+        r = sess.get('http://weibo.com/login.php', headers=headers)
+        if r.status_code == 200:
+            return True
+        else:
+            return False
+    except:
         return False
 
 
@@ -35,7 +38,7 @@ def get_iplist():
     sess = requests.session()
     idx = 0
     for i in range(2):
-        res = sess.get(url % (i + 1), headers=headers)
+        res = sess.get(url % (i + 1), headers=headers, timeout=2)
         tree = etree.HTML(res.content)
         items = tree.xpath('//div[@class="clearfix proxies"]/table//tr')
         for item in items[1:]:
