@@ -67,9 +67,13 @@ def get_valid_session():
 
 def get_comment_with_proxy():
     url = 'http://weibo.com/aj/v6/comment/big?ajwvr=6&id=%s&root_comment_max_id_type=0&page=1'
-    sess = get_valid_session()
     weibo_id = r.spop('weibo_id').decode('utf-8')
-    print(get_weibo_content(sess, url, weibo_id))
+    while 1:
+        sess = get_valid_session()
+        result = get_weibo_content(sess, url, weibo_id)
+        if result is not None:
+            print(result)
+            break
 
 
 def main():
